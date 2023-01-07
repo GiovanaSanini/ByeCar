@@ -1,0 +1,100 @@
+header{
+    background-color: #303030;
+    color: #FFFFFF;
+    height: 100px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    margin-right: 30px;
+}
+
+section{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 50vw;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: #265E70;
+    line-height: 24px;
+}
+
+.esquerda h2{
+    margin-top: 20px;
+
+}
+
+.direita{
+    margin-top: 100px;
+}
+
+.card1{
+    margin-top: 10px;
+}
+
+
+.setaEsquerda{
+    border: none;
+    display: flex;
+    width: 10%;
+}
+
+.voltar{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    margin-top: 200px;
+    border: none;
+}
+
+.itens-carousel {
+    overflow: hidden;
+    gap: 2rem;
+    max-width: 540px;
+    min-width: 540px;
+    display: flex;
+}
+
+.setaDireita{
+    border: none;
+    display: flex;
+    width: 10%;
+}
+
+.avancar{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    margin-top: 200px;
+    border: none;
+}
+
+.saiba{
+    width: 200px;
+    height: 45px;
+    left: 935px;
+    top: 849px;
+    background:rgba(77, 188, 233, 0.75);
+    border-radius: 15px;
+    border: none;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 4px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: -30px;
+    margin-right: 90px;
+}
+
+

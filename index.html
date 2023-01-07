@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>ByeCar</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" width="120px" class="logo">
+        <h1>ByeCar</h1>
+    </header>
+
+    <section>
+        <div class="esquerda">
+            <h2>Ter uma moto por assinatura <br> nunca foi tão fácil!</h2>
+            <img src="mulher.svg" width="400px" class="mulher">
+        </div>
+
+        <div class="esquerda">
+            <h2>Conheça nossas motos!</h2>
+            <div class="setaEsquerda">
+                <button class="voltar" onclick="show(-1)">
+                  <img src="setaEsquerda.svg">
+                </button>
+            <ul class="itens-carousel">
+               <li class="item-card" id="card">
+               <img src="card1.svg" >
+                </li>
+                <li class="item-card" id="card">
+                <img src="card2.svg" >
+                </li>
+            </ul>
+            <button class="avancar" onclick="show(+1)">
+                <img src="setaDireita.svg" alt="" />
+              </button>   
+            
+        </div>
+        <button class="saiba">Saiba mais</button>
+    </section>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
